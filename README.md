@@ -11,11 +11,11 @@ Video download service.
 Dependencies
 ------------
 
-./start.sh
+node js: https://nodejs.org/en/
 
 Start
 -----
 
-Go to download service directory and start the server `node index.js`
+./start.sh
 
 and then try: curl -X GET http://localhost:8080?video_id=2kKKymO7ohA
