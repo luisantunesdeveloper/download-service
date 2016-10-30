@@ -1,0 +1,40 @@
+{
+  "name": "DownloadsService",
+  "version": "0.0.1",
+  "description": "Downloading service.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luisantunesdeveloper/download-service.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -R spec **/*.spec.js",
+    "debug": "node-debug index.js",
+    "lint": "eslint ."
+  },
+  "author": "Luis Antunes, luisantunes.developer@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "querystring": "^0.2.0",
+    "superagent": "2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "mocha": "^2.4.5",
+    "node-inspector": "^0.12.7",
+    "should": "^8.3.0",
+    "sinon": "^1.17.6",
+    "supertest": "^1.2.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+      "semi": 2
+    }
+  }
+}
