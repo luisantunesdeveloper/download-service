@@ -11,7 +11,7 @@ Video download service.
 Dependencies
 ------------
 
-node js: https://nodejs.org/en/
+./start.sh
 
 Start
 -----
